@@ -14,3 +14,14 @@ print("%s" % (20*"==") )
 Dla liczb z zakresu od 0 do 100, wyświetli te, które są podzielne przez 5.
 W następnym wierszu wyświetli te liczby podniesione do potęgi 3."""
 
+print("3. Zadanie2")
+nper5 = []
+thirdpower = []
+for n in range (0,101):
+    if n %5 == 0 and n != 0:
+        nper5.append(n)
+print(nper5)
+print("%s" % (20*"- -") )
+for number in nper5:
+    thirdpower.append(number **3)
+print(f"liczby podniesione do potęgi 3 to {thirdpower} ")
