@@ -33,3 +33,10 @@ def shopping():
     return shopping_cart
 print("\n KOLEJNA FUNKCJA \n")
 print(shopping())
+
+"""
+Jakiego typu jest None? Przetestuj to, wywołując 
+funkcję type na rezultacie funkcji, która nic nie zwraca.
+odp: <class 'NoneType'> 
+"""
+print(type(None))
