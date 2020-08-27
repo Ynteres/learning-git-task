@@ -8,7 +8,7 @@ print("Lista zakupów")
 sum_prod = 0
 for sklep, produkty in order_list.items():
       sum_prod += len(produkty)
-        print("Ide do %s, kupuję tu nstępujące rzeczy : %s" % (sklep.upper(), produkty))
+      print("Ide do %s, kupuję tu nstępujące rzeczy : %s" % (sklep.upper(), produkty))
 print("W sumie kupuje w %d sklepach aż %d produktów." % (a, sum_prod))
 print("%s" % (20*"==") )
 """ MOD3 - ZADANIE 2 
